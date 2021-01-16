@@ -136,6 +136,15 @@ table {
 * {
 	/* border: 1px solid black; */
 }
+* {
+	/* padding: 20px; */
+}
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 2px solid black; */
+}
 
 .containerAboutPage {
 	display: flex;
@@ -143,14 +152,27 @@ table {
 	justify-content: center;
 }
 
-.midUpper {
+.mid {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	justify-content: space-evenly;
+	justify-content: space-around;
+	justify-content: space-between;
+	/* align-content: space-around; */
+	/* border: 2px solid black; */
+	/* padding: 40px; */
+}
+.cell {
+	display: flex;
+	flex-direction: column;
 }
 
-.lowerMid {
-	display: flex;
-	justify-content: center;
-	justify-content: space-evenly;
+button {
+	size: 2px;
+	padding: 4px;
+	background: white;
 }
+/* img {
+	padding: 20%;
+} */
